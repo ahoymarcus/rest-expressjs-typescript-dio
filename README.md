@@ -31,8 +31,14 @@ Dependências:
 
 <br />
 
-### Apresentando a rota /users/:uuid
-![Apresentando a rota users id](/public/images/rota-get-users-id.png)
+### Apresentando a rota GET /users/:uuid
+![Apresentando a rota get users id](/public/images/rota-get-users-id.png)
+
+
+<br />
+### Apresentando a ROTA POST /users
+![Apresentando a rota post users](/public/images/rota-post-users.png)
+
 
 
 
