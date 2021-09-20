@@ -33,7 +33,7 @@ usersRoute.post('/users', (req: Request, res: Response, next: NextFunction) => {
 });
 
 
-usersRoute.put('/users/:uuid', (req: Request<{ uuid: string }>, res: Response, next: NextFunctio) => {
+usersRoute.put('/users/:uuid', (req: Request<{ uuid: string }>, res: Response, next: NextFunction) => {
 	const uuid = req.params.uuid;
 	
 	const modifiedUser = req.body;
@@ -43,6 +43,14 @@ usersRoute.put('/users/:uuid', (req: Request<{ uuid: string }>, res: Response, n
 	res.status(StatusCodes.OK).send({ modifiedUser });
 }); 
 
+
+usersRoute.delete('/users/:uuid', (req: Request<{ uuid: string }>, res: Response, next: NextFunction) => {
+	const uuid = req.params.uuid;
+	
+	console.log("Deletado user id: ", uuid);
+	
+	res.sendStatus(StatusCodes.OK);
+});
 
 
 

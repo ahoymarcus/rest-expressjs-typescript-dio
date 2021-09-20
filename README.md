@@ -49,6 +49,10 @@ Dependências:
 ![Apresentando a rota put users id](/public/images/rota-put-users-id.png)
 
 
+<br />
+
+### Apresentando a rota DELETE /users/:uuid
+![Apresentando a rota delete users id](/public/images/rota-delete-users-id.png)
 
 
 
