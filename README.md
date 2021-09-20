@@ -17,6 +17,7 @@ Dependências:
 - Express-JS
 - @types/express
 - Ts-node-dev
+- Http-status-codes
 
 
 
