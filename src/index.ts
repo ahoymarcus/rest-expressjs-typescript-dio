@@ -1,5 +1,6 @@
 import express, { Request, Response, NextFunction} from 'express';
 
+import statusRoute from './routes/status.route';
 import userRoute from './routes/user.route';
 
 
@@ -15,19 +16,15 @@ app.use(express.json());
 
 
 // Configuração das Rotas
+app.use(statusRoute);
 app.use(userRoute);
 
 
-
-app.get('/status', (req: Request, res: Response, next: NextFunction) => {
-	res.status(200).send({ foo: 'Sucesso total!!!' });
-});
 
 
 app.listen(3000, () => {
 	console.log('Server runninng at localhost:3000');
 });
-
 
 
 
