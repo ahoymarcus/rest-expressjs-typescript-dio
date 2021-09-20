@@ -28,6 +28,10 @@ Dependências:
 ![Subindo o primeiro servidor com typescript](/public/images/subindo-primeiro-servidor-typescript.png)
 
 
+<br />
+
+### Apresentando a rota /users/:uuid
+![Apresentando a rota users id](/public/images/rota-get-users-id.png)
 
 
 
