@@ -33,6 +33,18 @@ usersRoute.post('/users', (req: Request, res: Response, next: NextFunction) => {
 });
 
 
+usersRoute.put('/users/:uuid', (req: Request<{ uuid: string }>, res: Response, next: NextFunctio) => {
+	const uuid = req.params.uuid;
+	
+	const modifiedUser = req.body;
+	modifiedUser.uuid = uuid;
+	console.log(modifiedUser);
+	
+	res.status(StatusCodes.OK).send({ modifiedUser });
+}); 
+
+
+
 
 
 export default usersRoute;
