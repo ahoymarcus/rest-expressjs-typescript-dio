@@ -2,8 +2,6 @@
 
 O projeto serve para colocar em prática os conceitos trazidos no curso "Explorando o Estilo Arquitetural REST com Node.js"[^1]. 
 
-<br />
-
 Trata-se da criação de um microserviço de autenticação para usuários e da criação de um código que possa ser reutilizado em outros projetos de backend.
 
 
@@ -18,7 +16,7 @@ Dependências:
 - @types/node
 - Express-JS
 - @types/express
-
+- Ts-node-dev
 
 
 
