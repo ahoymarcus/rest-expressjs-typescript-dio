@@ -1,4 +1,4 @@
-# API REST com Node e Express-JS
+# API REST com Typescript, Node e Express-JS
 
 O projeto serve para colocar em prática os conceitos trazidos no curso "Explorando o Estilo Arquitetural REST com Node.js"[^1]. 
 
